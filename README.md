@@ -49,6 +49,7 @@ apt install devscripts
 
 pull-lp-source ubiquity
 
+https://packaging.ubuntu.com/html/patches-to-packages.html
 
 
 
