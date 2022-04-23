@@ -1,0 +1,1 @@
+# fa_langbug_ubuntu
