@@ -43,16 +43,36 @@ when language is English, installed locale is fa_az
 
 find how ubiquity generate log 
 
-get latest code 
-apt install ubuntu-dev
-apt install devscripts
+	get latest code 
+	apt install ubuntu-dev
+	apt install devscripts
 
-pull-lp-source ubiquity
+## Work on bug
 
+get source of package
+
+	pull-lp-source ubiquity
+	cd ubiquity-22.10.1/
+
+create a new patch 	
+
+	quilt new fa_ir.diff
+
+add files to patch 
+
+	quilt add d-i/patches/localechooser-post-base-installer.patch
+
+make change to actual file 
+
+	vim d-i/patches/localechooser-post-base-installer.patch
+
+update patch system
+
+	quilt refresh
 
 ## links
 
-https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1891270
-https://packaging.ubuntu.com/html/fixing-a-bug.html
-https://packaging.ubuntu.com/html/patches-to-packages.html
-https://ubuntu-packaging-guide.readthedocs.io/en/latest/ubuntu-packaging-guide/fixing-a-bug-example.html
+- https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1891270
+- https://packaging.ubuntu.com/html/fixing-a-bug.html
+- https://packaging.ubuntu.com/html/patches-to-packages.html
+- https://ubuntu-packaging-guide.readthedocs.io/en/latest/ubuntu-packaging-guide/fixing-a-bug-example.html
