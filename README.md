@@ -49,11 +49,10 @@ apt install devscripts
 
 pull-lp-source ubiquity
 
-https://packaging.ubuntu.com/html/patches-to-packages.html
-
-
 
 ## links
 
 https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1891270
 https://packaging.ubuntu.com/html/fixing-a-bug.html
+https://packaging.ubuntu.com/html/patches-to-packages.html
+https://ubuntu-packaging-guide.readthedocs.io/en/latest/ubuntu-packaging-guide/fixing-a-bug-example.html
