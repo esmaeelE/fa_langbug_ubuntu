@@ -70,6 +70,33 @@ update patch system
 
 	quilt refresh
 
+
+`debian/changelog` must be changed and add version
+
+	ubiquity (22.10.2) kinetic; urgency=medium
+
+	  *  Add default farsi language for IRAN.
+
+	 -- EsmaeelE <esmaeelEE@protonmail.com>  Wed, 04 May 2022 07:07:53 +0430 
+
+
+	ubiquity (22.10.1) kinetic; urgency=medium
+
+	  *  Update for kinetic.
+
+
+build package 
+
+	debuild -S -d 
+	or
+	debuild -S -d --no-sign
+	
+generate debdiff
+
+	debdiff ubiquity_22.10.1.dsc ubiquity_22.10.2.dsc > ubiquity_22.10.2.debdiff
+
+place debdiff file as patch to bug-report on launchpad
+
 ## links
 
 - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1891270
