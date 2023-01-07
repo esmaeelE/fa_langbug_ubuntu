@@ -103,3 +103,16 @@ place debdiff file as patch to bug-report on launchpad
 - https://packaging.ubuntu.com/html/fixing-a-bug.html
 - https://packaging.ubuntu.com/html/patches-to-packages.html
 - https://ubuntu-packaging-guide.readthedocs.io/en/latest/ubuntu-packaging-guide/fixing-a-bug-example.html
+- https://wiki.ubuntu.com/Ubiquity
+- https://code.launchpad.net/ubuntu/+source/ubiquity/+merges
+- https://launchpad.net/+search?field.text=Dutch+is+the+native+language+for+a+majority+of+the&x=0&y=0
+- https://translations.launchpad.net/+languages/nl
+- https://git.launchpad.net/ubuntu/+source/ubiquity/commit/?h=applied/ubuntu/lunar-proposed&id=4d1c3567e74c93d0a00e3f282ae1d7e2b6e1a408
+- https://git.launchpad.net/ubuntu/+source/ubiquity/
+- https://code.launchpad.net/%7E2bdkid/ubuntu/+source/ubiquity/+git/ubiquity/+merge/432828/+index?ss=1
+- اps://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1907914/comments/0
+- tps://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1295627
+- https://askubuntu.com/questions/1299522/belgian-formats-when-choosing-us-language-regional-language-settings-issue
+- https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1907914
+- https://git.launchpad.net/ubiquity/tree/d-i/patches/localechooser-post-base-installer.patch#n100
+
