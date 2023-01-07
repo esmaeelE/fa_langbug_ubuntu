@@ -110,8 +110,8 @@ place debdiff file as patch to bug-report on launchpad
 - https://git.launchpad.net/ubuntu/+source/ubiquity/commit/?h=applied/ubuntu/lunar-proposed&id=4d1c3567e74c93d0a00e3f282ae1d7e2b6e1a408
 - https://git.launchpad.net/ubuntu/+source/ubiquity/
 - https://code.launchpad.net/%7E2bdkid/ubuntu/+source/ubiquity/+git/ubiquity/+merge/432828/+index?ss=1
-- اps://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1907914/comments/0
-- tps://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1295627
+- اhttps://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1907914/comments/0
+- https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1295627
 - https://askubuntu.com/questions/1299522/belgian-formats-when-choosing-us-language-regional-language-settings-issue
 - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1907914
 - https://git.launchpad.net/ubiquity/tree/d-i/patches/localechooser-post-base-installer.patch#n100
